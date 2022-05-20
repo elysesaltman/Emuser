@@ -1,0 +1,275 @@
+#title {
+  background: #fafafa;
+  background-size: 400% 400%;
+  -webkit-animation: AnimationName 0s ease infinite;
+  -moz-animation: AnimationName 0s ease infinite;
+  animation: AnimationName 0s ease infinite;
+  overflow: hidden;
+  position: relative;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 49% 0%
+  }
+
+  50% {
+    background-position: 52% 100%
+  }
+
+  100% {
+    background-position: 49% 0%
+  }
+}
+
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 49% 0%
+  }
+
+  50% {
+    background-position: 52% 100%
+  }
+
+  100% {
+    background-position: 49% 0%
+  }
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 49% 0%
+  }
+
+  50% {
+    background-position: 52% 100%
+  }
+
+  100% {
+    background-position: 49% 0%
+  }
+}
+
+/* image hover bounce animation */
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		-webkit-transform: translateY(0);
+		-ms-transform:     translateY(0);
+		transform:         translateY(0)
+	}
+	40% {
+		-webkit-transform: translateY(-30px);
+		-ms-transform:     translateY(-30px);
+		transform:         translateY(-30px)
+	}
+	60% {
+		-webkit-transform: translateY(-15px);
+		-ms-transform:     translateY(-15px);
+		transform:         translateY(-15px)
+	}
+}
+
+
+/* img {
+  -webkit-filter: drop-shadow(5px 5px 5px #222 );
+  filter: drop-shadow(5px 5px 5px #222);
+} */
+#intro {
+  background: #fff;
+  padding: 2% 20%;
+}
+
+#press {
+  background-color: #ffffff;
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+#features {
+  background: #fdfdfd;
+  padding: 2% 10%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 3%;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #fff;
+  color: #535353;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#outro {
+  text-align: center;
+  background-color: #fafafa;
+  padding: 2% 20%;
+  padding-bottom: 5%;
+}
+
+#footer  {
+  /* width: 100%;
+height: 100vh; */
+display: flex;
+justify-content: center;
+align-items: center;
+  background-color: #323b42;
+  color: #fff;
+  padding: 1% 20%;
+    font-size: 14px;
+}
+
+#copyright{
+    background-color: #fff;
+}
+
+.press-logo {
+  width: 5%;
+  margin: 20px 20px 0px;
+}
+
+body {
+  font-family: 'Montserrat';
+  font-size: 20px;
+  color: grey;
+}
+
+.resume-img {
+  width: 100%;
+  padding-right: 20%;
+  /* -webkit-filter: drop-shadow(5px 5px 5px #222 );
+  filter: drop-shadow(5px 5px 5px #222); */
+}
+
+.resume-test-img {
+  height: 550px;
+  width: 350px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  -webkit-filter: drop-shadow(5px 5px 5px #222 );
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.hiring-img {
+  height: 400px;
+  width: 400px;
+}
+
+.features-img {
+  height: 150px;
+  width: 150px;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  color: white;
+}
+
+.features-img:hover {
+  cursor: pointer;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
+}
+
+/* .fa-solid:hover {
+  color: #edf3f5 !important;
+} */
+
+.fa-solid {
+  padding: 5%;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* body {
+  font-family: 'Montserrat';
+} */
+h1 {
+  font-family: 'Abril Fatface';
+  /* font-weight: 900; */
+  font-size: 4rem;
+  line-height: 1.5;
+  color: #333333;
+  /* padding-top: 10%;
+  padding-bottom: 10%; */
+}
+
+h2 {
+  font-family: 'Times New Roman';
+  font-weight: 500;
+  font-size: 3rem;
+  color: #535353;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Times New Roman';
+  font-size: 2rem;
+  font-weight: bold;
+  color: #444444;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding-left: 50px;
+}
+
+.nav-link {
+  font-size: 20px;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.carousel-control-next,
+.carousel-control-prev
+
+/*, .carousel-indicators */
+  {
+  filter: invert(100%);
+}
+
+/* download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+.icons{
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+}
